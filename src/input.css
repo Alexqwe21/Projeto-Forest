@@ -1,65 +1,13 @@
-@import 'tailwindcss';
+@import "tailwindcss";
 
 @theme {
-  /* --*: initial;  */
-
-  /* cria cores novas */
-  --color-verde-200: #acef75;
-  --color-verde-300: #91ee77;
-  --color-verde-900: #16281f;
-  --color-verde-950: #0f1c15;
-
-  /* escreve por cima de cores que existem */
-  --color-lime-300: var(--color-pink-300);
-  --color-lime-900: var(--color-pink-900);
-  --color-lime-950: var(--color-pink-950);
-
-  /* remove o padrão */
-  --color-blue-*: initial;
-
-  --text-2xs: 0.5rem;
-  --text-xl: 1.25rem;
-  --text-xl--line-height: 1.5rem;
-
-  /* cria um novo media querie */
-  --breakpoint-xs: 380px;
-
-  /* modifica o espaçamento padrão */
-  --spacing: 6px;
-  --spacing-22: 5.5rem;
-
-  /* adiciona uma animação */
-  --animate-slideIn: slideIn 0.3s ease-in-out forwards;
-
-  /* adiciona um keyframe */
-  @keyframes slideIn {
-    0% {
-      opacity: 0;
-      transform: translateX(-20px);
-    }
-    100% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-  }
+  --color-fundo-site: #0f1c15;
 }
 
-@utility text-sombra {
-  text-shadow: 1px 1px #000;
-}
+
+
 
 @utility site {
   max-width: 1200px;
   margin: 0 auto;
-  background: red;
-}
-
-@utility container {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 0 1rem;
-  @media(width <600px){
-    background-color: blue;
-  }
-  /* ou pode usar  0 auto */
 }
