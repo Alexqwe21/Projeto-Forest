@@ -320,7 +320,7 @@
                   <h2
                     class="mb-5 uppercase text-base text-[#ACEF75] font-medium tracking-widest max-lg:text-green-250"
                   >
-                    Conecte-se com a natureza
+                    Experiências Exclusivas
                   </h2>
 
                   <h1 class="font-serif text-white text-5xl mb-10">
@@ -340,6 +340,7 @@
                         >Explore a vida selvagem em seu habitat natural sob as
                         estrelas.</strong
                       >
+
                       <li class="flex items-center text-2xl text-white">
                         <p
                           class="w-10 h-1 mr-5 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75]"
@@ -351,6 +352,19 @@
                         >Explore a vida selvagem em seu habitat natural sob as
                         estrelas.</strong
                       >
+                      <li class="flex items-center text-2xl text-white">
+                        <p
+                          class="w-10 h-1 mr-5 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75]"
+                        ></p>
+                        Observação Estelar
+                      </li>
+                      <strong
+                        class="pl-15 mb-5 text-gray-400/70 text-balance font-medium"
+                      >
+                        Contemple constelações e fenômenos celestes em uma noite
+                        tranquila.
+                      </strong>
+
                       <li class="flex items-center text-2xl text-white">
                         <p
                           class="w-10 h-1 mr-5 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75]"
@@ -367,32 +381,61 @@
                 </div>
               </div>
 
-              <div class="w-1/2 flex gap-5">
-                
-                <d  iv class=" flex flex-col">
-                  <div class="size-75 rounded-full">
+              <div class="w-1/2 flex justify-around gap-8">
+                <!-- Coluna 1 -->
+                <div class="flex flex-col gap-10">
+                  <!-- Canoagem -->
+                  <div class="relative group size-75">
                     <img
                       src="../img/canoagem.jpg"
                       alt=""
-                      class="rounded-[20px]"
+                      class="rounded-[20px] w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
+
+                    <!-- Overlay -->
+                    <div
+                      class="absolute inset-0 bg-black/50 rounded-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+                    >
+                      <p class="text-white text-xl font-bold">
+                        Aventura na Canoagem
+                      </p>
+                    </div>
                   </div>
 
-                  <div class="size-75 rounded-full mt-10">
+                  <!-- Vida Selvagem -->
+                  <div class="relative group size-75">
                     <img
-                      src="../img/canoagem.jpg"
+                      src="../img/vida-selvagem.jpg"
                       alt=""
-                      class="rounded-[20px]"
+                      class="rounded-[20px] w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
                     />
+
+                    <div
+                      class="absolute inset-0 bg-black/50 rounded-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+                    >
+                      <p class="text-white text-xl font-bold">
+                        Explorando a Vida Selvagem
+                      </p>
+                    </div>
                   </div>
                 </div>
-                <div class="  rounded-full">
-                    <img
-                      src="../img/observacao-noturna.jpg"
-                      alt=""
-                      class="rounded-[20px]"
-                    />
+
+                <!-- Coluna 2 -->
+                <div class="relative group">
+                  <img
+                    src="../img/observacao-noturna.jpg"
+                    alt=""
+                    class="rounded-[20px] h-[640px] object-cover w-full transition-transform duration-300 group-hover:scale-105"
+                  />
+
+                  <div
+                    class="absolute inset-0 bg-black/50 rounded-[20px] opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center"
+                  >
+                    <p class="text-white text-xl font-bold">
+                      Observação Noturna
+                    </p>
                   </div>
+                </div>
               </div>
             </div>
           </div>
