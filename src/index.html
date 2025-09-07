@@ -545,7 +545,7 @@
         </article>
       </section>
 
-      <section class="py-20">
+      <section class="py-15">
         <article class="site">
           <div class="">
             <div class="flex justify-around">
@@ -566,63 +566,200 @@
 
                   <div class="mt-5">
                     <ul class="flex flex-col gap-1">
-                      <li class="flex text-2xl text-white flex-col  gap-2 mb-3">
+                      <li class="flex text-2xl text-white flex-col gap-2 mb-3">
                         <div>
                           <p
-                            class="w-10 h-1  rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
+                            class="w-10 h-1 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
                           ></p>
                           <div class="mt-5">
                             <p class="text-[#ACEF75] font-bold">Base</p>
                           </div>
-                          
                         </div>
                         <div class="text-xl">
                           <p>Rua da Mata, 123 - Floresta Nacional - RJ</p>
                         </div>
                       </li>
 
-                       <li class="flex text-2xl text-white flex-col  gap-2 mb-3">
+                      <li class="flex text-2xl text-white flex-col gap-2 mb-3">
                         <div>
                           <p
-                            class="w-10 h-1  rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
+                            class="w-10 h-1 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
                           ></p>
                           <div class="mt-5">
                             <p class="text-[#ACEF75] font-bold">Email</p>
                           </div>
-                          
                         </div>
                         <div class="text-xl">
                           <p>contato@forest.com</p>
                         </div>
                       </li>
 
-
-                      <li class="flex text-2xl text-white flex-col  gap-2">
+                      <li class="flex text-2xl text-white flex-col gap-2 mb-3">
                         <div>
                           <p
-                            class="w-10 h-1  rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
+                            class="w-10 h-1 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
                           ></p>
                           <div class="mt-5">
                             <p class="text-[#ACEF75] font-bold">Telefone</p>
                           </div>
-                          
                         </div>
                         <div class="text-xl">
                           <p>21 99999-9999</p>
                         </div>
                       </li>
-                      
 
-                
-
+                      <li class="flex text-2xl text-white flex-col gap-2 mb-3">
+                        <div>
+                          <p
+                            class="w-10 h-1 rounded-full bg-gradient-to-b from-[#17e880] to-[#acef75] text-start"
+                          ></p>
+                          <div class="mt-5">
+                            <p class="text-[#ACEF75] font-bold">
+                              Estacionamento
+                            </p>
+                          </div>
+                        </div>
+                        <div class="text-xl">
+                          <p>Amplo estacionamento gratuito no local</p>
+                          <p>Vagas exclusivas para visitantes e PCD</p>
+                        </div>
+                      </li>
                     </ul>
                   </div>
                 </div>
               </div>
+              <form
+                action="#"
+                method="post"
+                class="w-1/2 bg-[#16281f] p-4 rounded-xl"
+              >
+                <div class="flex flex-col">
+                  <label for="nome" class="text-white font-medium text-xl"
+                    >Nome</label
+                  >
+                  <input
+                    type="text"
+                    name="nome"
+                    id="nome"
+                    class="bg-[#2e482c]/40 rounded-sm mt-3 h-13 text-white text-2xl focus:border-[#17e880] focus:ring-2 focus:ring-[#17e880] outline-none"
+                  />
+
+                  <div class="flex justify-between mt-10">
+                    <div class="flex flex-col">
+                      <label for="email" class="text-white font-medium text-xl"
+                        >Email</label
+                      >
+                      <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        class="bg-[#2e482c]/40 rounded-sm mt-3 h-13 text-white text-2xl focus:border-[#17e880] focus:ring-2 focus:ring-[#17e880] outline-none"
+                      />
+                    </div>
+                    <div class="flex flex-col">
+                      <label for="tel" class="text-white font-medium text-xl"
+                        >Telefone</label
+                      >
+                      <input
+                        type="tel"
+                        name="tel"
+                        id="tel"
+                        class="bg-[#2e482c]/40 rounded-sm mt-3 h-13 text-white text-2xl focus:border-[#17e880] focus:ring-2 focus:ring-[#17e880] outline-none placeholder:p-4"
+                        placeholder="(21) 00000-0000"
+                      />
+                    </div>
+                  </div>
+                  <div>
+                    <textarea
+                      name="mensagem"
+                      id="mensagem"
+                      class="bg-[#2e482c]/40 rounded-sm mt-3 w-full p-3 text-white text-2xl focus:border-[#17e880] focus:ring-2 focus:ring-[#17e880] outline-none resize-none h-[300px]"
+                      placeholder="Digite sua mensagem..."
+                    ></textarea>
+                  </div>
+                  <div class="mt-5">
+                    <button
+                      type="submit"
+                      class="bg-gradient-to-b from-[#17e880] to-[#acef75] text-black flex w-50 justify-center p-3 rounded-full text-[18px] max-sm:w-42 cursor-pointer"
+                    >
+                      Enviar Email
+                    </button>
+                  </div>
+                </div>
+              </form>
             </div>
           </div>
         </article>
       </section>
+
+      <section class="py-10">
+        <article class="site">
+          <div
+            class="border-t-2 border-b-2 border-[#acef75] flex justify-between p-7 h-24"
+          >
+            <div>
+              <img src="../img/parceiros/caravan.svg" alt="caravan" />
+            </div>
+
+            <div>
+              <img src="../img/parceiros/dogs.svg" alt="dogs" />
+            </div>
+
+            <div>
+              <img src="../img/parceiros/lescone.svg" alt="lescone" />
+            </div>
+
+            <div>
+              <img src="../img/parceiros/surfbot.svg" alt="surfbot" />
+            </div>
+
+            <div>
+              <img src="../img/parceiros/wildbeast.svg" alt="caravan" />
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <footer>
+        <div class="bg-[#17e880]/10 w-full site rounded-xl p-10 mb-10">
+          <div class="flex justify-around">
+            <div>
+              <h3 class="text-2xl font-serif text-white mb-5">Endereço</h3>
+              <p class="text-gray-300">Rua da Mata, 123</p>
+              <p class="text-gray-300 my-3">Floresta Nacional</p>
+              <p class="text-gray-300">Rio de Janeiro, RJ</p>
+            </div>
+
+            <div>
+              <h3 class="text-2xl font-serif text-white mb-5">Contato</h3>
+              <p class="text-gray-300">contato@forest.com</p>
+              <p class="text-gray-300 my-3">+55 21 9999-9999</p>
+            </div>
+
+            <div>
+              <img src="../img/forest.svg" alt="forest" />
+              <p class="text-gray-300 mt-2">Conecte-se com a natureza</p>
+            </div>
+          </div>
+        </div>
+        <div class="flex justify-between site">
+          <div>
+            <strong class="text-white">© 2024 Forest. Todos os direitos reservados.</strong>
+          </div>
+
+          <div  class="flex gap-10 pb-10">
+            <div>
+              <a href="#" class="text-white hover:text-[#17e880]">Instagram</a>
+            </div>
+            <div>
+              <a href="#" class="text-white hover:text-[#17e880]">LinkedIn</a>
+            </div>
+            <div>
+              <a href="#" class="text-white hover:text-[#17e880]">Facebook</a>
+            </div>
+          </div>
+        </div>
+      </footer>
     </main>
   </body>
 </html>
